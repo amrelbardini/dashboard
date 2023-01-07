@@ -7,13 +7,78 @@
     <title>Dashboard</title>
     <!--start style files-->
     <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/framework.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/all.min.css">
     <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
-
-
     
+    <div class="page d-flex">
+        <!--start sidebar-->
+        <div class="sidebar bg-white p-20 relative">
+            <h3 class="relative txt-center">Elbardini</h3>
+            <ul >
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="index.html" >
+                        <i class="fa-solid fa-chart-simple fa-fw"></i>
+                        <span class=" text-capitalize hide-mobile">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html" >
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span class="text-capitalize hide-mobile">settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html" >
+                        <i class="fa-solid fa-user fa-fw"></i>
+                        <span class="text-capitalize hide-mobile" >profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html" >
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="text-capitalize hide-mobile">projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html" >
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span class="text-capitalize hide-mobile"> courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html" >
+                        <i class="fa-solid fa-user-group fa-fw"></i>
+                        <span class="text-capitalize hide-mobile">friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="files.html" >
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span class="text-capitalize hide-mobile">files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html" >
+                        <i class="fa-solid fa-ruler-horizontal fa-fw"></i>
+                        <span class="text-capitalize hide-mobile">plans</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+         <!--end sidebar-->
+        <div class="content w-full"> content</div>
+    </div>
+
+   
+
     <!--start script files-->
+    <script src="js/all.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
