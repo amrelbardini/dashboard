@@ -44,6 +44,9 @@
 .rad-6{
     border-radius: 6px;
 }
+.rad-10{
+    border-radius: 10px;
+}
 .rad-50{
     border-radius: 50%;
 }
@@ -68,22 +71,38 @@
 }
 .img-fluid{
     max-width:100%;
-    max-height: 100%
-    ;
+    max-height: 100%;
+}
+.d-grid{
+    display: grid;
+}
+
+.gap-20{
+    gap:20px;
+}
+@media(max-width:767px){
+    .block-mobile{
+       display: block;
+    }
 }
 /*body display and position */
 /*text align */
-.txt-center{
+.text-center{
     text-align: center;
 }
-.txt-left{
+.text-left{
     text-align: left;
 }
-.txt-right{
+.text-right{
     text-align: right;
 }
 .text-capitalize{
   text-transform: capitalize;
+}
+@media(max-width:767px){
+    .text-center-mobile{
+        text-align: center;
+    }
 }
 
 .fs-14{
